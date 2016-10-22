@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSeaForm</title>
+	<meta charset="utf-8" name="description" content="AnalogSea Form project for Thinkful">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+	<header>
+		<div class="aslogo"><img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" class="toplogo" alt="aslogo" style="height: 35px;"></div>
+	</header>
+	<main>
+	<div class="whitebox">
+		<form class="signup-as" action="/signup/" method="post">
+			<div class="sgnup">Sign up</div>
+			<fieldset name="signup-info">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="1234passw0rd" required/>
+			</fieldset>
+			<button type="submit">Sign up</button>
+		</form>	
+		<a href="/forgot-password/new" class="forgot-password">Forgot password?</a>
+	</div>
+<div class="Login">
+	<p>Already have an account? <a href="/login" class="loglink">Log In</a></p>
+</div>
+	</main>
+</body>
+</html>

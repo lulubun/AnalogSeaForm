@@ -1,0 +1,120 @@
+body {
+	display: block;
+	background-color: #298eea;
+	font-family: sans-serif;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+img.toplogo {
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whitebox {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	background-color: white;
+	border-style: none;
+	border-radius: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.sgnup {
+	text-align: center;
+	padding-top: 25px;
+	color: grey;
+	padding-bottom: 10px;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+fieldset {
+	border-style: none;
+	margin-bottom: 20px;
+}
+
+.placeholder input {
+	font-size: 36px;
+}
+
+.signup-as input, .signup-as label {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.signup-as input {
+	height: 53px;
+	width: 318px;
+	color: #d3d3d3;
+	border: solid #d3d3d3 2px;
+	font-size: 15px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.signup-as label {
+	position: relative;
+    left: 30px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.forgot-password {
+	display: block;
+	color: #d3d3d3;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+a.forgot-password:hover {
+	color: grey;
+}
+
+button {
+	height: 55px;
+	width: 320px;
+	color: white;
+	background-color: #0CB863;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	margin: 0px auto;
+	border: none;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+button:hover {
+	background-color: #09934F
+}
+
+p, a {
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	color: white;
+}
+a.loglink:link {
+	color: white;
+	font-weight: bold;
+}
